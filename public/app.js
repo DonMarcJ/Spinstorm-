@@ -1,6 +1,6 @@
 document.documentElement.setAttribute("data-theme","dark");
 /* SETTINGS: fill these two lines, then save. Leave "" to switch a feature off. */
-var GC="";      /* GoatCounter site code, e.g. "spinstorm" (from spinstorm.goatcounter.com) */
+var GC="spinstorm";      /* GoatCounter site code, e.g. "spinstorm" (from spinstorm.goatcounter.com) */
 var CONTACT="https://forms.gle/J2zn5KLSP5a1tfCPA"; /* partner link: "mailto:you@example.com" or a form link like "https://forms.gle/..." */
 function track(p){try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:p,event:true})}catch(e){}}
 if(GC){var gs=document.createElement("script");gs.async=true;gs.setAttribute("data-goatcounter","https://"+GC+".goatcounter.com/count");gs.src="https://gc.zgo.at/count.js";document.head.appendChild(gs)}
