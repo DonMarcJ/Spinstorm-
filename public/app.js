@@ -4,7 +4,9 @@ var GC="spinstorm";      /* GoatCounter site code, e.g. "spinstorm" (from spinst
 var CONTACT="https://forms.gle/J2zn5KLSP5a1tfCPA"; /* partner link: "mailto:you@example.com" or a form link like "https://forms.gle/..." */
 function track(p){try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:p,event:true})}catch(e){}}
 if(GC){var gs=document.createElement("script");gs.async=true;gs.setAttribute("data-goatcounter","https://"+GC+".goatcounter.com/count");gs.src="https://gc.zgo.at/count.js";document.head.appendChild(gs)}
-var LOCK='<svg viewBox="0 0 24 24"><path class="sh" d="M8 11V8a4 4 0 0 1 8 0v3" fill="none" stroke="#3a4260" stroke-width="2.2" stroke-linecap="round"/><rect x="5" y="11" width="14" height="10" rx="2.5" fill="#3a4260"/></svg>';
+var GA="G-W76KJYTBFK";
+function track(p){try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:p,event:true});if(GA&&window.gtag){var a=p.split("/");gtag("event",a[0].replace(/[^a-zA-Z0-9_]/g,"_"),{detail:a.slice(1).join("/")})}}catch(e){}}
+if(GA){var gl=document.createElement("script");gl.async=true;gl.src="https://www.googletagmanager.com/gtag/js?id="+GA;document.head.appendChild(gl);window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag("js",new Date());gtag("config",GA)}var LOCK='<svg viewBox="0 0 24 24"><path class="sh" d="M8 11V8a4 4 0 0 1 8 0v3" fill="none" stroke="#3a4260" stroke-width="2.2" stroke-linecap="round"/><rect x="5" y="11" width="14" height="10" rx="2.5" fill="#3a4260"/></svg>';
 [0,1,2].forEach(function(i){document.getElementById("l"+i).innerHTML=LOCK});
 var EFF=["Weekend","Weekend","A week","A week","A month"];
 var mode="sensible",locked=[false,false,false],busy=false,cur=null,pins=[];
