@@ -1,419 +1,245 @@
 {
- "updated": "2026-11-25T07:21:13.280Z",
+ "updated": "2026-11-25T08:28:15.856Z",
  "items": [
   {
-   "title": "Old Nvidia and ATI tech demos, running again in the browser",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50638503",
-   "score": 52
-  },
-  {
-   "title": "Termius was asking me for $120 a year, so I built my own SSH client",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50639212",
-   "score": 2
-  },
-  {
-   "title": "Sliding-panes React UI library (inspired by WebOS Enyo)",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50637936",
-   "score": 23
-  },
-  {
-   "title": "Sightline – Windows CLI for AI agents to capture UI and map DPI coords",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50639090",
-   "score": 3
-  },
-  {
-   "title": "PQCrypta Proxy: Rust proxy with HTTP/3, QUIC, hybrid post-quantum TLS",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50591024",
-   "score": 40
-  },
-  {
-   "title": "Carry – Save every AI conversations as Markdown, in a folder you Own",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50637995",
-   "score": 10
-  },
-  {
-   "title": "Mergeon – A native desktop Git client written in Rust with GPUI",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50637887",
-   "score": 7
-  },
-  {
-   "title": "Mason – A lightweight Postgres read-replica, built on columnar storage",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50630294",
-   "score": 94
-  },
-  {
-   "title": "Simulusion – DreamerV3, IRIS, Genie and other world models in PyTorch",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50638565",
-   "score": 2
-  },
-  {
-   "title": "Brickie – Deploy sandboxes in your own AWS account",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50629936",
-   "score": 30
-  },
-  {
-   "title": "Archiver that opens every format",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50638216",
-   "score": 3
-  },
-  {
-   "title": "KradleBench – Multi-agent AI evals in Minecraft",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50608604",
-   "score": 16
-  },
-  {
-   "title": "Instant Calc Hub – fast, free calculators, no sign-up",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50638021",
-   "score": 2
-  },
-  {
-   "title": "Drive around my village in 3D",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50574412",
-   "score": 130
-  },
-  {
-   "title": "Analysis of Hacker News predictions since 2008",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50633531",
-   "score": 10
-  },
-  {
-   "title": "Novel DB compression models in Libc – Dockerized NY OpenStreetMap 9:1",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50633015",
-   "score": 6
-  },
-  {
-   "title": "I built Maeto, an SRv6 SD-WAN from scratch on Linux that you can break",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50611914",
-   "score": 6
-  },
-  {
-   "title": "Nemos – one searchable library for links, screenshots and notes (iOS)",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50634543",
-   "score": 5
-  },
-  {
-   "title": "Type-C – variants, options, generics and pattern matching for C",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50602561",
-   "score": 48
-  },
-  {
-   "title": "UFO OPTIX Scanning satellite imagery for flying craft artifacts",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50636574",
-   "score": 4
-  },
-  {
-   "title": "Rhebok – free local RAG for your coding agent",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50635912",
-   "score": 2
-  },
-  {
-   "title": "Docxtract – Turn docs into clean LLM context and study guides",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50635477",
-   "score": 2
-  },
-  {
-   "title": "Siv – Civilization VI clone playable in the browser",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50635420",
-   "score": 2
-  },
-  {
-   "title": "Wakeshift – Open-Source MCP Events for Claude Code, Codex and More",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50634239",
-   "score": 4
-  },
-  {
-   "title": "I built a game where you are an LLM's subagent",
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50599762",
-   "score": 360
-  },
-  {
-   "title": "An attempt at running GTA VI on PC",
+   "p": "A tiny running tracker you actually use",
+   "a": [
+    "beginners",
+    "new parents",
+    "retirees"
+   ],
    "source": "GitHub",
-   "url": "https://github.com/Marvisak/VIctory",
-   "score": 11732
+   "url": "https://github.com/Marvisak/VIctory"
   },
   {
-   "title": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
+   "p": "A no-signup way to run community",
+   "a": [
+    "church groups",
+    "roommates",
+    "sports clubs"
+   ],
    "source": "GitHub",
-   "url": "https://github.com/AFK-surf/xnulinux",
-   "score": 3576
+   "url": "https://github.com/4lwayz/portwatch-vi"
   },
   {
-   "title": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
+   "p": "LLM tricks for everyday jobs",
+   "a": [
+    "small shops",
+    "students",
+    "teachers"
+   ],
    "source": "GitHub",
-   "url": "https://github.com/4lwayz/portwatch-vi",
-   "score": 3115
+   "url": "https://github.com/iamajmeena/neonclipping"
   },
   {
-   "title": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+   "p": "A quick game idea generator",
+   "a": [
+    "teenagers",
+    "friends",
+    "hobbyists"
+   ],
    "source": "GitHub",
-   "url": "https://github.com/iamajmeena/neonclipping",
-   "score": 2527
+   "url": "https://github.com/fxceless/victory-fork"
   },
   {
-   "title": "Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files.",
+   "p": "Running check-ins in 10 seconds",
+   "a": [
+    "beginners",
+    "new parents",
+    "office workers"
+   ],
    "source": "GitHub",
-   "url": "https://github.com/fxceless/victory-fork",
-   "score": 2352
+   "url": "https://github.com/omonkeyz/xbox-emulator"
   },
   {
-   "title": "A continuation of Leonida, the Xbox > PC port interface for GTA VI",
+   "p": "Community planning without the chaos",
+   "a": [
+    "roommates",
+    "church groups",
+    "classrooms"
+   ],
    "source": "GitHub",
-   "url": "https://github.com/ubiquitarianism/leonida",
-   "score": 2017
+   "url": "https://github.com/leanprover-community/riemann-hypothesis"
   },
   {
-   "title": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
+   "p": "A weekly game challenge",
+   "a": [
+    "hobbyists",
+    "students",
+    "artists"
+   ],
    "source": "GitHub",
-   "url": "https://github.com/omonkeyz/xbox-emulator",
-   "score": 1828
+   "url": "https://github.com/Indigo-0167/universal-game-mod-manager"
   },
   {
-   "title": "make your macbook's trackpad talk using its haptic motor",
+   "p": "A quick image idea generator",
+   "a": [
+    "teenagers",
+    "artists",
+    "friends"
+   ],
    "source": "GitHub",
-   "url": "https://github.com/os6/nospeaker",
-   "score": 1795
+   "url": "https://github.com/Umbra9179/clipboard-history-manager-windows"
   },
   {
-   "title": "Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20) being cleaned up by members of the Lean community.",
+   "p": "A quick images idea generator",
+   "a": [
+    "artists",
+    "students",
+    "friends"
+   ],
    "source": "GitHub",
-   "url": "https://github.com/leanprover-community/riemann-hypothesis",
-   "score": 1103
+   "url": "https://github.com/zero5122/offline-file-converter-windows"
   },
   {
-   "title": "Free Windows game mod manager to discover, install, update and manage universal Unity and Unreal Engine mods.",
+   "p": "Share your video in one tap",
+   "a": [
+    "friends",
+    "artists",
+    "teenagers"
+   ],
    "source": "GitHub",
-   "url": "https://github.com/Indigo-0167/universal-game-mod-manager",
-   "score": 1024
+   "url": "https://github.com/kai415-debug/ffmpeg-video-audio-converter"
   },
   {
-   "title": "Free offline file converter for Windows – convert PDF, documents, images, audio and video privately.",
+   "p": "A simpler CLI explainer",
+   "a": [
+    "students",
+    "bootcamp grads",
+    "hobbyists"
+   ],
    "source": "GitHub",
-   "url": "https://github.com/zero5122/offline-file-converter-windows",
-   "score": 1012
+   "url": "https://github.com/danielwh2/sprite-stacking"
   },
   {
-   "title": "Free open-source Windows clipboard manager with searchable history, image previews, tags, editing and backup.",
-   "source": "GitHub",
-   "url": "https://github.com/Umbra9179/clipboard-history-manager-windows",
-   "score": 998
-  },
-  {
-   "title": "Free open-source Steam Achievement Manager for Windows to manage game achievements and edit Steam game statistics.",
-   "source": "GitHub",
-   "url": "https://github.com/solv4626/steam-achievement-manager-windows",
-   "score": 997
-  },
-  {
-   "title": "Free Windows FFmpeg GUI for video and audio conversion, batch transcoding, and multimedia format encoding.",
-   "source": "GitHub",
-   "url": "https://github.com/kai415-debug/ffmpeg-video-audio-converter",
-   "score": 990
-  },
-  {
-   "title": "Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in",
-   "source": "GitHub",
-   "url": "https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop",
-   "score": 963
-  },
-  {
-   "title": "Run the Xbox Series build of the game natively on Windows PCs with NVIDIA GPUs",
-   "source": "GitHub",
-   "url": "https://github.com/Zettrox/ztrx",
-   "score": 911
-  },
-  {
-   "title": "Free open-source Stardew Valley mod manager for Windows with SMAPI support, mod updates, and custom mod profiles.",
-   "source": "GitHub",
-   "url": "https://github.com/rowanbyte3329/stardew-valley-mod-manager",
-   "score": 871
-  },
-  {
-   "title": "Bring (back) sanity to your code",
-   "source": "GitHub",
-   "url": "https://github.com/deterministic-machines/deslop-please",
-   "score": 854
-  },
-  {
-   "title": "Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi.",
-   "source": "GitHub",
-   "url": "https://github.com/danielwh2/sprite-stacking",
-   "score": 828
-  },
-  {
-   "title": "My Linux Course Put Me to Sleep, So I Built Something That Wouldn’t",
+   "p": "A kinder way to stick to sleep",
+   "a": [
+    "beginners",
+    "office workers",
+    "night-shift workers"
+   ],
    "source": "dev.to",
-   "url": "https://dev.to/maame-codes/my-linux-course-put-me-to-sleep-so-i-built-something-that-wouldnt-5g4k",
-   "score": 79
+   "url": "https://dev.to/maame-codes/my-linux-course-put-me-to-sleep-so-i-built-something-that-wouldnt-5g4k"
   },
   {
-   "title": "Monuments of India, Part 3: Sixteen Statues Sculpted from Photographs, a Rebuilt Mysore Palace and More",
+   "p": "A friendlier CLI for beginners",
+   "a": [
+    "hobbyists",
+    "bootcamp grads",
+    "self-taught developers"
+   ],
    "source": "dev.to",
-   "url": "https://dev.to/amananandrai/monuments-of-india-part-3-sixteen-statues-sculpted-from-photographs-a-rebuilt-mysore-palace-and-3bm",
-   "score": 16
+   "url": "https://dev.to/debashish_ghosal/we-started-with-four-open-agent-cli-questions-we-ended-with-two-real-wins-47ih"
   },
   {
-   "title": "Monuments of India, Part 4: 100 New Monuments, from Harappan Dholavira to the Chenab Rail Bridge",
-   "source": "dev.to",
-   "url": "https://dev.to/amananandrai/monuments-of-india-part-4-100-new-monuments-from-harappan-dholavira-to-the-chenab-rail-bridge-3n6p",
-   "score": 10
+   "p": "Agent tricks for everyday jobs",
+   "a": [
+    "office workers",
+    "freelancers",
+    "students"
+   ],
+   "source": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50608604"
   },
   {
-   "title": "Feltbeat: count your own heartbeats while a webcam keeps the real number to itself",
+   "p": "AI tricks for everyday jobs",
+   "a": [
+    "office workers",
+    "small shops",
+    "teachers"
+   ],
    "source": "dev.to",
-   "url": "https://dev.to/soumyadeepdey/feltbeat-count-your-own-heartbeats-while-a-webcam-keeps-the-real-number-to-itself-553b",
-   "score": 8
+   "url": "https://dev.to/julies1/i-built-a-devto-comment-reviser-so-id-stop-re-pasting-the-same-ai-prompt-4oi8"
   },
   {
-   "title": "One Script, Four Documents",
+   "p": "A simpler git explainer",
+   "a": [
+    "students",
+    "bootcamp grads",
+    "hobbyists"
+   ],
    "source": "dev.to",
-   "url": "https://dev.to/kenwalger/one-script-four-documents-2lb",
-   "score": 13
+   "url": "https://dev.to/kameh0use/git-bisect-doesnt-work-on-lockfiles-so-i-built-whichdep-4d37"
   },
   {
-   "title": "Three hours, one small extension, and Firefox Add-ons",
+   "p": "A one-screen planner app",
+   "a": [
+    "new parents",
+    "students",
+    "remote workers"
+   ],
    "source": "dev.to",
-   "url": "https://dev.to/necoz/three-hours-one-small-extension-and-firefox-add-ons-27d4",
-   "score": 42
+   "url": "https://dev.to/vero-code/61-hackathons-2000-github-contributions-the-free-chrome-planner-that-keeps-me-shipping-2gk7"
   },
   {
-   "title": "3Draft: Five Percent — 30 Minutes to Deadline",
+   "p": "Learn editor in 10 minutes a day",
+   "a": [
+    "bootcamp grads",
+    "students",
+    "junior developers"
+   ],
    "source": "dev.to",
-   "url": "https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk",
-   "score": 24
+   "url": "https://dev.to/bankaitensei/i-built-an-editor-that-is-faster-than-zed-1hi1"
   },
   {
-   "title": "I built a dev.to comment reviser so I'd stop re-pasting the same AI prompt",
-   "source": "dev.to",
-   "url": "https://dev.to/julies1/i-built-a-devto-comment-reviser-so-id-stop-re-pasting-the-same-ai-prompt-4oi8",
-   "score": 15
+   "p": "A calmer way to manage notes",
+   "a": [
+    "new parents",
+    "students",
+    "freelancers"
+   ],
+   "source": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50634543"
   },
   {
-   "title": "I built an app so I stop crashing out at work",
-   "source": "dev.to",
-   "url": "https://dev.to/daniel_ng/i-built-an-app-so-i-stop-crashing-out-at-work-2oei",
-   "score": 12
+   "p": "Plain-English AI for non-experts",
+   "a": [
+    "teachers",
+    "office workers",
+    "students"
+   ],
+   "source": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50639615"
   },
   {
-   "title": "git bisect doesn't work on lockfiles — so I built whichdep",
+   "p": "A learned buddy that keeps you going",
+   "a": [
+    "job seekers",
+    "travelers",
+    "teachers"
+   ],
    "source": "dev.to",
-   "url": "https://dev.to/kameh0use/git-bisect-doesnt-work-on-lockfiles-so-i-built-whichdep-4d37",
-   "score": 10
+   "url": "https://dev.to/pointinvaders/what-i-learned-shipping-a-31-game-arcade-in-the-browser-with-no-engine-2en6"
   },
   {
-   "title": "Blink Board: Asking for water with one long blink and a laptop webcam",
-   "source": "dev.to",
-   "url": "https://dev.to/ramya_srim/blink-board-asking-for-water-with-one-long-blink-and-a-laptop-webcam-1bgo",
-   "score": 4
+   "p": "A friendlier git for beginners",
+   "a": [
+    "junior developers",
+    "bootcamp grads",
+    "students"
+   ],
+   "source": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50639532"
   },
   {
-   "title": "The $2,400 Auto Repair Estimate Nobody Can Read. I Built the Decoder That Doesn't Guess Prices.",
-   "source": "dev.to",
-   "url": "https://dev.to/debashish_ghosal/the-2400-auto-repair-estimate-nobody-can-read-i-built-the-decoder-that-doesnt-guess-prices-295p",
-   "score": 18
+   "p": "A daily RAG tip in your pocket",
+   "a": [
+    "students",
+    "teachers",
+    "small shops"
+   ],
+   "source": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50635912"
   },
   {
-   "title": "28mb IDE!? # Splash Code Studio Ne? / What is Splash Code Studio?",
+   "p": "Model tricks for everyday jobs",
+   "a": [
+    "office workers",
+    "small shops",
+    "freelancers"
+   ],
    "source": "dev.to",
-   "url": "https://dev.to/sparky_family/11mb-ide-splash-code-studio-ne-what-is-splash-code-studio-3ck4",
-   "score": 0
-  },
-  {
-   "title": "How I built memory that forgets on purpose: 90 days to stale, 365 to gone, and a pin that never expires",
-   "source": "dev.to",
-   "url": "https://dev.to/krish_verma_77e28d3fd63ca/how-i-built-memory-that-forgets-on-purpose-90-days-to-stale-365-to-gone-and-a-pin-that-never-12gk",
-   "score": 3
-  },
-  {
-   "title": "Roast My Dev Desktop: Zero Minimalism, Maximum Chaos",
-   "source": "dev.to",
-   "url": "https://dev.to/quantumtechcoder/roast-my-dev-desktop-zero-minimalism-maximum-chaos-2paa",
-   "score": 9
-  },
-  {
-   "title": "Your GitHub review is still pending",
-   "source": "dev.to",
-   "url": "https://dev.to/nikitathedev/your-github-review-is-still-pending-11lf",
-   "score": 2
-  },
-  {
-   "title": "Rivers that cannot run uphill: procedural rivers, lakes and waterfalls in plain WebGL2",
-   "source": "dev.to",
-   "url": "https://dev.to/freema/rivers-that-cannot-run-uphill-procedural-rivers-lakes-and-waterfalls-in-plain-webgl2-48bn",
-   "score": 3
-  },
-  {
-   "title": "61 Hackathons, 2,000+ GitHub Contributions: The Free Chrome Planner That Keeps Me Shipping",
-   "source": "dev.to",
-   "url": "https://dev.to/vero-code/61-hackathons-2000-github-contributions-the-free-chrome-planner-that-keeps-me-shipping-2gk7",
-   "score": 7
-  },
-  {
-   "title": "513 Tokens in a 512-Token Chunk: Why I Recount Every Chunk",
-   "source": "dev.to",
-   "url": "https://dev.to/kameh0use/513-tokens-in-a-512-token-chunk-why-i-recount-every-chunk-4e2f",
-   "score": 13
-  },
-  {
-   "title": "I built an editor that is faster than Zed",
-   "source": "dev.to",
-   "url": "https://dev.to/bankaitensei/i-built-an-editor-that-is-faster-than-zed-1hi1",
-   "score": 6
-  },
-  {
-   "title": "SDLC-Squad: 20 skills that write your PRDs and sprint plans without making anything up",
-   "source": "dev.to",
-   "url": "https://dev.to/debashish_ghosal/sdlc-squad-20-skills-that-write-your-prds-and-sprint-plans-without-making-anything-up-fli",
-   "score": 18
-  },
-  {
-   "title": "We Started With Four Open Agent CLI Questions. We Ended With Two Real Wins.",
-   "source": "dev.to",
-   "url": "https://dev.to/debashish_ghosal/we-started-with-four-open-agent-cli-questions-we-ended-with-two-real-wins-47ih",
-   "score": 17
-  },
-  {
-   "title": "The Wrong Fix, Five Times: One Week of Player Feedback on My 30 MB Model",
-   "source": "dev.to",
-   "url": "https://dev.to/sweetpapa/the-wrong-fix-five-times-one-week-of-player-feedback-on-my-30-mb-model-38bi",
-   "score": 2
-  },
-  {
-   "title": "Your Go MJML and Liquid libraries fail on hostile templates. I tested them all.",
-   "source": "dev.to",
-   "url": "https://dev.to/pierreb/your-go-mjml-and-liquid-libraries-fail-on-hostile-templates-i-tested-them-all-4cfb",
-   "score": 6
-  },
-  {
-   "title": "What I learned shipping a 31-game arcade in the browser with no engine",
-   "source": "dev.to",
-   "url": "https://dev.to/pointinvaders/what-i-learned-shipping-a-31-game-arcade-in-the-browser-with-no-engine-2en6",
-   "score": 3
+   "url": "https://dev.to/sweetpapa/the-wrong-fix-five-times-one-week-of-player-feedback-on-my-30-mb-model-38bi"
   }
  ]
 }
