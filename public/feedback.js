@@ -8,7 +8,7 @@
     var b = document.createElement("button");
     b.type = "button";
     b.textContent = o[1];
-    b.style.cssText = "font-size:12px;padding:6px 10px;border-radius:14px;border:1px solid rgba(0,0,0,.25);background:rgba(255,255,255,.6);color:inherit";
+    b.style.cssText = "font-size:12px;font-weight:600;padding:6px 10px;border-radius:14px;border:1px solid rgba(20,30,60,.5);background:rgba(255,255,255,.9);color:#1b2540";
     b.addEventListener("click", function () {
       if (!window.cur) return;
       var id = text(window.cur);
