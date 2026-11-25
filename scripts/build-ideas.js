@@ -38,7 +38,7 @@ async function dev() {
     url: a.url,
     score: a.public_reactions_count || 0
   }));
-}                                                   }
+}                                                   
 const ACR = { ai: 1, api: 1, cli: 1, sql: 1, sdk: 1, llm: 1, gpt: 1, rag: 1 };
 const CATS = [
   { k: /\b(editor|terminal|cli|compiler|debugger|git|api|sdk|database|sql|framework|devtools?)\b/i,
