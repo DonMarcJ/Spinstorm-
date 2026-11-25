@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://spinstorm.is-a.dev/sitemap.xml
+Sitemap: https://Spinstorm.josephmakwakwa14.workers.dev/sitemap.xml
