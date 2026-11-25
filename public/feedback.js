@@ -3,6 +3,14 @@
   row.style.cssText = "display:none;flex-wrap:wrap;gap:6px;justify-content:center;margin:8px 0";
   var opts = [["interesting", "Interesting"], ["irrelevant", "Not relevant"], ["exists", "Already exists"], ["build", "I'd build this"]];
   var voted = {};
+  var msg = document.createElement("p");
+msg.style.cssText = "width:100%;text-align:center;font-size:13px;font-weight:600;margin:2px 0;color:#1b2540;display:none";
+function say(t) {
+  msg.textContent = t;
+  msg.style.display = "block";
+  clearTimeout(say.t);
+  say.t = setTimeout(function () { msg.style.display = "none"; }, 1500);
+}
 
   opts.forEach(function (o) {
     var b = document.createElement("button");
