@@ -29,6 +29,7 @@ function say(t) {
     row.appendChild(b);
   });
 
+  row.appendChild(msg);
   var spin = $("spin");
   spin.parentNode.insertBefore(row, spin);
 
