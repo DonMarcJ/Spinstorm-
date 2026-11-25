@@ -20,11 +20,11 @@ function say(t) {
     b.addEventListener("click", function () {
       if (!window.cur) return;
       var id = text(window.cur);
-      if (voted[id]) { toast("Already rated"); return; }
+      if (voted[id]) { say("Already rated"); return; }
       voted[id] = 1;
       track("fb/" + o[0] + "/" + id);
       b.style.background = "rgba(255,215,0,.9)";
-      toast("Thanks!");
+      Say("Thanks!");
     });
     row.appendChild(b);
   });
