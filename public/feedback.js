@@ -15,7 +15,7 @@
       if (voted[id]) { toast("Already rated"); return; }
       voted[id] = 1;
       track("fb/" + o[0] + "/" + id);
-      b.style.background = "rgba(255,215,0,.7)";
+      b.style.background = "rgba(255,215,0,.9)";
       toast("Thanks!");
     });
     row.appendChild(b);
