@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T07:20:49.797Z",
+ "updated": "2026-11-25T07:21:13.280Z",
  "items": [
   {
    "title": "Old Nvidia and ATI tech demos, running again in the browser",
@@ -179,7 +179,7 @@
    "title": "Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files.",
    "source": "GitHub",
    "url": "https://github.com/fxceless/victory-fork",
-   "score": 2351
+   "score": 2352
   },
   {
    "title": "A continuation of Leonida, the Xbox > PC port interface for GTA VI",
@@ -209,31 +209,31 @@
    "title": "Free Windows game mod manager to discover, install, update and manage universal Unity and Unreal Engine mods.",
    "source": "GitHub",
    "url": "https://github.com/Indigo-0167/universal-game-mod-manager",
-   "score": 1023
+   "score": 1024
   },
   {
    "title": "Free offline file converter for Windows – convert PDF, documents, images, audio and video privately.",
    "source": "GitHub",
    "url": "https://github.com/zero5122/offline-file-converter-windows",
-   "score": 1011
+   "score": 1012
   },
   {
    "title": "Free open-source Windows clipboard manager with searchable history, image previews, tags, editing and backup.",
    "source": "GitHub",
    "url": "https://github.com/Umbra9179/clipboard-history-manager-windows",
-   "score": 997
+   "score": 998
   },
   {
    "title": "Free open-source Steam Achievement Manager for Windows to manage game achievements and edit Steam game statistics.",
    "source": "GitHub",
    "url": "https://github.com/solv4626/steam-achievement-manager-windows",
-   "score": 996
+   "score": 997
   },
   {
    "title": "Free Windows FFmpeg GUI for video and audio conversion, batch transcoding, and multimedia format encoding.",
    "source": "GitHub",
    "url": "https://github.com/kai415-debug/ffmpeg-video-audio-converter",
-   "score": 989
+   "score": 990
   },
   {
    "title": "Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in",
@@ -245,7 +245,7 @@
    "title": "Run the Xbox Series build of the game natively on Windows PCs with NVIDIA GPUs",
    "source": "GitHub",
    "url": "https://github.com/Zettrox/ztrx",
-   "score": 909
+   "score": 911
   },
   {
    "title": "Free open-source Stardew Valley mod manager for Windows with SMAPI support, mod updates, and custom mod profiles.",
