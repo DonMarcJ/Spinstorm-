@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://spinstorm.is-a.dev/sitemap.xml
