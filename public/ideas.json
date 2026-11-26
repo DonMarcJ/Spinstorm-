@@ -1,152 +1,152 @@
 {
- "updated": "2026-11-26T05:54:44.818Z",
+ "updated": "2026-11-26T14:49:32.080Z",
  "items": [
   {
-   "p": "Planning community meetups without the chaos",
+   "p": "Simple coordination for community meetups",
    "a": [
-    "neighbors",
-    "classrooms",
-    "church groups"
+    "sports clubs",
+    "church groups",
+    "neighbors"
    ],
    "t": [
-    "Shareable result card",
-    "Opens in WhatsApp",
-    "Works over SMS"
+    "Works over SMS",
+    "Works from a QR code",
+    "Opens in WhatsApp"
    ],
    "source": "GitHub",
    "url": "https://github.com/4lwayz/portwatch-vi"
   },
   {
-   "p": "Share your games in one tap",
+   "p": "A quick idea generator for games",
    "a": [
+    "friends",
     "teenagers",
-    "hobbyists",
     "artists"
    ],
    "t": [
-    "Includes a mascot",
-    "Shareable result card",
-    "Works offline"
+    "Uses a single button",
+    "Works offline",
+    "Has a countdown timer"
    ],
    "source": "GitHub",
    "url": "https://github.com/fxceless/victory-fork"
   },
   {
-   "p": "A calmer way to manage your schedule",
+   "p": "A calmer way to manage reminders",
    "a": [
-    "remote workers",
-    "freelancers",
-    "teachers"
+    "new parents",
+    "teachers",
+    "remote workers"
    ],
    "t": [
-    "One screen only",
     "Works offline",
-    "Uses a single button"
+    "Syncs with a calendar",
+    "Sends one daily nudge"
    ],
    "source": "GitHub",
    "url": "https://github.com/omonkeyz/xbox-emulator"
   },
   {
-   "p": "A no-signup way to run community meetups",
-   "a": [
-    "sports clubs",
-    "neighbors",
-    "classrooms"
-   ],
-   "t": [
-    "Works over SMS",
-    "Opens in WhatsApp",
-    "Zero sign-up"
-   ],
-   "source": "GitHub",
-   "url": "https://github.com/leanprover-community/riemann-hypothesis"
-  },
-  {
    "p": "A weekly games challenge",
    "a": [
-    "teenagers",
-    "students",
-    "artists"
+    "friends",
+    "artists",
+    "teenagers"
    ],
    "t": [
     "Works offline",
-    "Includes a mascot",
+    "Shareable result card",
     "Uses a single button"
    ],
    "source": "GitHub",
    "url": "https://github.com/Indigo-0167/universal-game-mod-manager"
   },
   {
-   "p": "A weekly writing challenge",
+   "p": "Share your photos in one tap",
    "a": [
     "students",
-    "teenagers",
-    "artists"
+    "artists",
+    "teenagers"
    ],
    "t": [
-    "Uses a single button",
-    "Works offline",
+    "Has a countdown timer",
+    "Shareable result card",
     "Includes a mascot"
    ],
    "source": "GitHub",
    "url": "https://github.com/zero5122/offline-file-converter-windows"
   },
   {
-   "p": "Share your writing in one tap",
+   "p": "Share your games in one tap",
    "a": [
-    "teenagers",
-    "friends",
-    "artists"
+    "hobbyists",
+    "artists",
+    "students"
    ],
    "t": [
-    "Works offline",
     "Shareable result card",
+    "Works offline",
     "Uses a single button"
+   ],
+   "source": "GitHub",
+   "url": "https://github.com/solv4626/steam-achievement-manager-windows"
+  },
+  {
+   "p": "A weekly writing challenge",
+   "a": [
+    "teenagers",
+    "artists",
+    "students"
+   ],
+   "t": [
+    "Includes a mascot",
+    "Uses a single button",
+    "Shareable result card"
    ],
    "source": "GitHub",
    "url": "https://github.com/kai415-debug/ffmpeg-video-audio-converter"
   },
   {
-   "p": "Learn Git in 10 minutes a day",
+   "p": "A plain-English guide to SQL",
    "a": [
+    "junior developers",
     "career switchers",
-    "bootcamp grads",
     "self-taught developers"
    ],
    "t": [
     "Built around a streak",
-    "Gamified with badges",
-    "Works offline"
+    "Works offline",
+    "Has a leaderboard"
    ],
    "source": "GitHub",
    "url": "https://github.com/danielwh2/sprite-stacking"
   },
   {
-   "p": "A calmer way to manage focus time",
+   "p": "A daily tip for using AI",
    "a": [
-    "new parents",
-    "remote workers",
-    "teachers"
+    "teachers",
+    "freelancers",
+    "office workers"
    ],
    "t": [
-    "Syncs with a calendar",
+    "Shareable result card",
     "Uses a single button",
-    "Works offline"
+    "Reads out loud"
    ],
-   "source": "GitHub",
-   "url": "https://github.com/sybil-solutions/skill-distill"
+   "source": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50599762"
   },
   {
-   "p": "Everyday jobs made easier with prompting",
+   "p": "A plain-English guide to AI tools",
    "a": [
-    "office workers",
+    "students",
     "small shops",
     "freelancers"
    ],
    "t": [
+    "Shareable result card",
     "Powered by a chatbot",
-    "Zero sign-up",
-    "Shareable result card"
+    "Uses a single button"
    ],
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50611593"
@@ -154,122 +154,107 @@
   {
    "p": "Everyday jobs made easier with AI",
    "a": [
+    "teachers",
     "freelancers",
-    "small shops",
-    "teachers"
+    "students"
    ],
    "t": [
+    "Uses a single button",
     "Zero sign-up",
-    "Reads out loud",
-    "Powered by a chatbot"
+    "Shareable result card"
    ],
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50637995"
   },
   {
-   "p": "A daily tip for using AI",
+   "p": "A plain-English guide to Git",
    "a": [
-    "small shops",
-    "students",
-    "teachers"
-   ],
-   "t": [
-    "Shareable result card",
-    "Powered by a chatbot",
-    "Zero sign-up"
-   ],
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50631791"
-  },
-  {
-   "p": "A cheat-sheet app for Git",
-   "a": [
+    "self-taught developers",
     "bootcamp grads",
-    "junior developers",
-    "students"
+    "career switchers"
    ],
    "t": [
-    "Built around a streak",
-    "Has a leaderboard",
-    "Works offline"
+    "One screen only",
+    "Gamified with badges",
+    "Has a leaderboard"
    ],
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50637887"
   },
   {
+   "p": "A cheat-sheet app for Git",
+   "a": [
+    "career switchers",
+    "bootcamp grads",
+    "self-taught developers"
+   ],
+   "t": [
+    "Built around a streak",
+    "One screen only",
+    "Works offline"
+   ],
+   "source": "dev.to",
+   "url": "https://dev.to/kameh0use/git-bisect-doesnt-work-on-lockfiles-so-i-built-whichdep-4d37"
+  },
+  {
    "p": "A daily tip for using AI tools",
    "a": [
-    "office workers",
+    "teachers",
     "freelancers",
     "students"
    ],
    "t": [
-    "Zero sign-up",
+    "Shareable result card",
     "Uses a single button",
-    "Powered by a chatbot"
+    "Reads out loud"
    ],
    "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50608604"
+   "url": "https://news.ycombinator.com/item?id=50635055"
   },
   {
-   "p": "A plain-English guide to AI tools",
+   "p": "A one-screen app for reminders",
    "a": [
-    "small shops",
+    "students",
+    "freelancers",
+    "remote workers"
+   ],
+   "t": [
+    "Works offline",
+    "One screen only",
+    "Uses a single button"
+   ],
+   "source": "dev.to",
+   "url": "https://dev.to/vero-code/61-hackathons-2000-github-contributions-the-free-chrome-planner-that-keeps-me-shipping-2gk7"
+  },
+  {
+   "p": "A daily tip for using prompting",
+   "a": [
+    "office workers",
     "teachers",
     "students"
    ],
    "t": [
-    "Powered by a chatbot",
-    "Reads out loud",
-    "Zero sign-up"
-   ],
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50646482"
-  },
-  {
-   "p": "A calmer way to manage to-dos",
-   "a": [
-    "teachers",
-    "students",
-    "new parents"
-   ],
-   "t": [
-    "Sends one daily nudge",
-    "Works offline",
-    "One screen only"
-   ],
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50651099"
-  },
-  {
-   "p": "A plain-English guide to AI",
-   "a": [
-    "office workers",
-    "students",
-    "teachers"
-   ],
-   "t": [
-    "Powered by a chatbot",
-    "Shareable result card",
-    "Uses a single button"
-   ],
-   "source": "dev.to",
-   "url": "https://dev.to/tinniaru3005/i-put-an-ai-agent-in-your-browser-so-you-can-watch-it-get-hijackedpublished-true-144o"
-  },
-  {
-   "p": "A quick idea generator for games",
-   "a": [
-    "hobbyists",
-    "students",
-    "artists"
-   ],
-   "t": [
-    "Includes a mascot",
     "Uses a single button",
-    "Works offline"
+    "Powered by a chatbot",
+    "Reads out loud"
    ],
    "source": "dev.to",
-   "url": "https://dev.to/pointinvaders/what-i-learned-shipping-a-31-game-arcade-in-the-browser-with-no-engine-2en6"
+   "url": "https://dev.to/vtima/my-coding-agent-says-done-heres-how-i-make-it-prove-it-b38"
+  },
+  {
+   "p": "A cheat-sheet app for debugging",
+   "a": [
+    "junior developers",
+    "students",
+    "bootcamp grads"
+   ],
+   "t": [
+    "Works offline",
+    "Gamified with badges",
+    "Has a leaderboard"
+   ],
+   "source": "dev.to",
+   "url": "https://dev.to/hideyukimori/117-ms-vs-908-ms-timing-my-text-editor-against-windows-notepad-5f57"
   }
  ]
 }
