@@ -6,7 +6,7 @@
       var lookup = {};
       j.items.forEach(function (i) {
         if (!i.p || !i.a || !/^https:\/\//.test(i.url || "")) return;
-        var t = [rnd(POOL[2]), rnd(POOL[2])];
+                var t = (i.t && i.t.length >= 2) ? i.t.slice(0, 2) : [rnd(POOL[2]), rnd(POOL[2])];
         DATA.push({ p: i.p, a: i.a.map(function (x) { return "For " + x; }), t: t });
         POOL[0].push(i.p);
         lookup[i.p] = i;
