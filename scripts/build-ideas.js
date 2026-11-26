@@ -73,7 +73,16 @@ const CATS = [
     p: ["Simple coordination for {n}", "A no-signup way to run {n}", "Planning {n} without the chaos"],
     a: ["church groups", "sports clubs", "roommates", "neighbors", "classrooms"] }
 ];
-
+const TW = [
+  ["Works offline", "One screen only", "Has a leaderboard", "Gamified with badges", "Built around a streak"],
+  ["Powered by a chatbot", "Uses a single button", "Reads out loud", "Zero sign-up", "Shareable result card"],
+  ["Works over SMS", "Zero sign-up", "Pay what you want", "One screen only", "Works offline"],
+  ["Built around a streak", "Sends one daily nudge", "Runs on a smartwatch", "Uses a single button", "Includes a mascot"],
+  ["Has a leaderboard", "Reads out loud", "Daily five-minute limit", "Gamified with badges", "Works offline"],
+  ["Syncs with a calendar", "Sends one daily nudge", "One screen only", "Works offline", "Uses a single button"],
+  ["Shareable result card", "Uses a single button", "Has a countdown timer", "Includes a mascot", "Works offline"],
+  ["Works from a QR code", "Opens in WhatsApp", "Zero sign-up", "Works over SMS", "Shareable result card"]
+];
 function pick(arr, n) {
   const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
@@ -94,7 +103,7 @@ function rewrite(items) {
       if (p.length > 52 || seen[p]) return;
       seen[p] = 1;
       perCat[c] = (perCat[c] || 0) + 1;
-      out.push({ p: p, a: pick(CATS[c].a, 3), source: it.source, url: it.url });
+      out.push({ p: p, a: pick(CATS[c].a, 3), t: pick(TW[c], 3), source: it.source, url: it.url });
       return;
     }
   });
