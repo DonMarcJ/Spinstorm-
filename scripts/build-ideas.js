@@ -1,9 +1,9 @@
 const fs = require("fs");
 
 async function j(u) {
-  const r = await fetch(u, {
-    headers: { "User-Agent": "spinstorm", Authorization: process.env.GH_TOKEN && u.includes("api.github.com") ? "Bearer " + process.env.GH_TOKEN : undefined }
-  });
+  const headers = { "User-Agent": "spinstorm" };
+  if (process.env.GH_TOKEN && u.includes("api.github.com")) headers.Authorization = "Bearer " + process.env.GH_TOKEN;
+  const r = await fetch(u, { headers });
   if (!r.ok) throw new Error(u + " " + r.status);
   return r.json();
 }
@@ -39,31 +39,38 @@ async function dev() {
     score: a.public_reactions_count || 0
   }));
 }                                                   
-const ACR = { ai: 1, api: 1, cli: 1, sql: 1, sdk: 1, llm: 1, gpt: 1, rag: 1 };
 const CATS = [
-  { k: /\b(editor|terminal|cli|compiler|debugger|git|api|sdk|database|sql|framework|devtools?)\b/i,
-    p: ["A friendlier {k} for beginners", "Learn {k} in 10 minutes a day", "A simpler {k} explainer"],
-    a: ["students", "self-taught developers", "bootcamp grads", "junior developers", "hobbyists"] },
-  { k: /\b(ai|llm|gpt|agents?|chatbots?|rag|model)\b/i,
-    p: ["Plain-English {k} for non-experts", "A daily {k} tip in your pocket", "{k} tricks for everyday jobs"],
+  { k: /\b(editor|terminal|cli|compiler|debugger|git|sql|sdk|devtools?)\b/i,
+    n: ["Git", "SQL", "the terminal", "debugging", "APIs"],
+    p: ["Learn {n} in 10 minutes a day", "A plain-English guide to {n}", "A cheat-sheet app for {n}"],
+    a: ["students", "self-taught developers", "bootcamp grads", "junior developers", "career switchers"] },
+  { k: /\b(ai|llm|gpt|agents?|chatbots?|rag|prompt\w*)\b/i,
+    n: ["AI", "AI tools", "prompting"],
+    p: ["A plain-English guide to {n}", "A daily tip for using {n}", "Everyday jobs made easier with {n}"],
     a: ["teachers", "small shops", "students", "freelancers", "office workers"] },
-  { k: /\b(budget|invoice|expense|tax|payment|savings?|money|finance|pricing)\b/i,
-    p: ["Dead-simple {k} tracking", "{k} help over a single screen", "A friendlier way to handle {k}"],
+  { k: /\b(budget\w*|invoice\w*|expenses?|tax(es)?|payments?|savings?|money|finance|pricing)\b/i,
+    n: ["budgeting", "invoicing", "expense tracking", "saving"],
+    p: ["Dead-simple {n}", "{n} on a single screen", "A friendlier way to handle {n}"],
     a: ["freelancers", "street vendors", "small shops", "students", "couples"] },
-  { k: /\b(habit|sleep|workout|fitness|meditation|diet|mood|health|walking|running)\b/i,
-    p: ["A tiny {k} tracker you actually use", "{k} check-ins in 10 seconds", "A kinder way to stick to {k}"],
+  { k: /\b(habits?|sleep|workouts?|fitness|meditation|diet|mood|health)\b/i,
+    n: ["habit tracking", "sleep", "workouts", "meditation", "mood"],
+    p: ["A tiny tracker for {n} you'll actually use", "A 10-second daily check-in for {n}", "A kinder way to keep up with {n}"],
     a: ["night-shift workers", "new parents", "beginners", "office workers", "retirees"] },
-  { k: /\b(learn\w*|course|tutorial|flashcards?|study|language|teach\w*|quiz)\b/i,
-    p: ["Bite-sized {k} on your phone", "A {k} buddy that keeps you going", "{k} made social"],
+  { k: /\b(flashcards?|study|language|quiz\w*|tutorial|course)\b/i,
+    n: ["languages", "flashcards", "study habits", "quizzes"],
+    p: ["Bite-sized {n} on your phone", "A study buddy for {n}", "{n}, made social"],
     a: ["students", "travelers", "immigrants", "job seekers", "teachers"] },
   { k: /\b(todo|tasks?|notes?|calendar|schedule|reminders?|planner|focus|timer)\b/i,
-    p: ["A one-screen {k} app", "{k} that nags you politely", "A calmer way to manage {k}"],
+    n: ["to-dos", "reminders", "focus time", "your schedule"],
+    p: ["A one-screen app for {n}", "A polite nag for {n}", "A calmer way to manage {n}"],
     a: ["students", "remote workers", "teachers", "new parents", "freelancers"] },
-  { k: /\b(music|video|photos?|images?|design|draw\w*|art|games?|writing|podcasts?)\b/i,
-    p: ["A quick {k} idea generator", "Share your {k} in one tap", "A weekly {k} challenge"],
+  { k: /\b(music|video|photos?|drawing|design|podcasts?|writing|games?)\b/i,
+    n: ["music", "photos", "drawing", "writing", "games"],
+    p: ["A quick idea generator for {n}", "Share your {n} in one tap", "A weekly {n} challenge"],
     a: ["artists", "students", "teenagers", "hobbyists", "friends"] },
-  { k: /\b(chat|social|community|events?|groups?|team|collaborat\w*|polls?|volunteer\w*)\b/i,
-    p: ["Simple {k} coordination", "A no-signup way to run {k}", "{k} planning without the chaos"],
+  { k: /\b(events?|polls?|volunteer\w*|community|collaborat\w*)\b/i,
+    n: ["group events", "volunteering", "team polls", "community meetups"],
+    p: ["Simple coordination for {n}", "A no-signup way to run {n}", "Planning {n} without the chaos"],
     a: ["church groups", "sports clubs", "roommates", "neighbors", "classrooms"] }
 ];
 
@@ -80,11 +87,11 @@ function rewrite(items) {
       const m = CATS[c].k.exec(it.title);
       if (!m) continue;
       if ((perCat[c] || 0) >= 6) return;
-      let k = m[0].toLowerCase();
-      if (ACR[k]) k = k.toUpperCase();
-      let p = pick(CATS[c].p, 1)[0].replace("{k}", k);
+      const hit = m[0].toLowerCase();
+      const noun = CATS[c].n.find(x => x.toLowerCase().includes(hit)) || pick(CATS[c].n, 1)[0];
+      let p = pick(CATS[c].p, 1)[0].replace("{n}", noun);
       p = p.charAt(0).toUpperCase() + p.slice(1);
-      if (p.length > 48 || seen[p]) return;
+      if (p.length > 52 || seen[p]) return;
       seen[p] = 1;
       perCat[c] = (perCat[c] || 0) + 1;
       out.push({ p: p, a: pick(CATS[c].a, 3), source: it.source, url: it.url });
@@ -92,7 +99,7 @@ function rewrite(items) {
     }
   });
   return out;
-}
+      }
 
 (async () => {
   let all = [];
