@@ -1,120 +1,110 @@
 {
- "updated": "2026-11-25T08:33:44.184Z",
+ "updated": "2026-11-26T05:26:13.773Z",
  "items": [
   {
-   "p": "Running check-ins in 10 seconds",
+   "p": "A no-signup way to run community meetups",
    "a": [
-    "retirees",
-    "beginners",
-    "office workers"
-   ],
-   "source": "GitHub",
-   "url": "https://github.com/Marvisak/VIctory"
-  },
-  {
-   "p": "Community planning without the chaos",
-   "a": [
+    "sports clubs",
     "church groups",
-    "classrooms",
-    "neighbors"
+    "classrooms"
    ],
    "source": "GitHub",
    "url": "https://github.com/4lwayz/portwatch-vi"
   },
   {
-   "p": "A daily LLM tip in your pocket",
+   "p": "Share your games in one tap",
    "a": [
-    "office workers",
-    "teachers",
-    "students"
-   ],
-   "source": "GitHub",
-   "url": "https://github.com/iamajmeena/neonclipping"
-  },
-  {
-   "p": "A weekly game challenge",
-   "a": [
+    "artists",
     "teenagers",
-    "friends",
     "hobbyists"
    ],
    "source": "GitHub",
    "url": "https://github.com/fxceless/victory-fork"
   },
   {
-   "p": "Share your game in one tap",
+   "p": "A polite nag for to-dos",
+   "a": [
+    "new parents",
+    "freelancers",
+    "students"
+   ],
+   "source": "GitHub",
+   "url": "https://github.com/omonkeyz/xbox-emulator"
+  },
+  {
+   "p": "A weekly games challenge",
    "a": [
     "students",
-    "teenagers",
-    "artists"
+    "friends",
+    "teenagers"
    ],
    "source": "GitHub",
    "url": "https://github.com/Indigo-0167/universal-game-mod-manager"
   },
   {
-   "p": "A quick image idea generator",
+   "p": "A weekly music challenge",
    "a": [
-    "artists",
+    "friends",
     "hobbyists",
-    "teenagers"
-   ],
-   "source": "GitHub",
-   "url": "https://github.com/Umbra9179/clipboard-history-manager-windows"
-  },
-  {
-   "p": "A weekly images challenge",
-   "a": [
-    "artists",
-    "hobbyists",
-    "friends"
+    "students"
    ],
    "source": "GitHub",
    "url": "https://github.com/zero5122/offline-file-converter-windows"
   },
   {
-   "p": "Share your video in one tap",
+   "p": "A quick idea generator for games",
    "a": [
+    "artists",
     "teenagers",
-    "hobbyists",
     "students"
    ],
    "source": "GitHub",
-   "url": "https://github.com/kai415-debug/ffmpeg-video-audio-converter"
+   "url": "https://github.com/solv4626/steam-achievement-manager-windows"
   },
   {
-   "p": "Learn CLI in 10 minutes a day",
+   "p": "Learn the terminal in 10 minutes a day",
    "a": [
-    "self-taught developers",
-    "hobbyists",
-    "students"
+    "students",
+    "bootcamp grads",
+    "career switchers"
    ],
    "source": "GitHub",
    "url": "https://github.com/danielwh2/sprite-stacking"
   },
   {
-   "p": "A tiny sleep tracker you actually use",
+   "p": "A calmer way to manage focus time",
    "a": [
-    "beginners",
-    "new parents",
-    "retirees"
+    "freelancers",
+    "remote workers",
+    "new parents"
    ],
-   "source": "dev.to",
-   "url": "https://dev.to/maame-codes/my-linux-course-put-me-to-sleep-so-i-built-something-that-wouldnt-5g4k"
+   "source": "GitHub",
+   "url": "https://github.com/sybil-solutions/skill-distill"
   },
   {
-   "p": "A friendlier CLI for beginners",
-   "a": [
-    "self-taught developers",
-    "bootcamp grads",
-    "junior developers"
-   ],
-   "source": "dev.to",
-   "url": "https://dev.to/debashish_ghosal/we-started-with-four-open-agent-cli-questions-we-ended-with-two-real-wins-47ih"
-  },
-  {
-   "p": "Plain-English agent for non-experts",
+   "p": "Everyday jobs made easier with AI",
    "a": [
     "students",
+    "teachers",
+    "small shops"
+   ],
+   "source": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50611593"
+  },
+  {
+   "p": "A cheat-sheet app for Git",
+   "a": [
+    "career switchers",
+    "bootcamp grads",
+    "self-taught developers"
+   ],
+   "source": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50637887"
+  },
+  {
+   "p": "A daily tip for using AI tools",
+   "a": [
+    "freelancers",
     "small shops",
     "teachers"
    ],
@@ -122,104 +112,64 @@
    "url": "https://news.ycombinator.com/item?id=50608604"
   },
   {
-   "p": "Plain-English AI for non-experts",
+   "p": "Learn Git in 10 minutes a day",
    "a": [
-    "students",
-    "small shops",
-    "freelancers"
-   ],
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50637995"
-  },
-  {
-   "p": "A daily AI tip in your pocket",
-   "a": [
-    "teachers",
-    "freelancers",
-    "students"
-   ],
-   "source": "dev.to",
-   "url": "https://dev.to/julies1/i-built-a-devto-comment-reviser-so-id-stop-re-pasting-the-same-ai-prompt-4oi8"
-  },
-  {
-   "p": "Learn git in 10 minutes a day",
-   "a": [
+    "bootcamp grads",
     "self-taught developers",
-    "junior developers",
-    "bootcamp grads"
+    "career switchers"
    ],
    "source": "dev.to",
    "url": "https://dev.to/kameh0use/git-bisect-doesnt-work-on-lockfiles-so-i-built-whichdep-4d37"
   },
   {
-   "p": "A friendlier git for beginners",
-   "a": [
-    "junior developers",
-    "self-taught developers",
-    "students"
-   ],
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50637887"
-  },
-  {
-   "p": "A calmer way to manage planner",
-   "a": [
-    "remote workers",
-    "teachers",
-    "students"
-   ],
-   "source": "dev.to",
-   "url": "https://dev.to/vero-code/61-hackathons-2000-github-contributions-the-free-chrome-planner-that-keeps-me-shipping-2gk7"
-  },
-  {
-   "p": "A simpler editor explainer",
-   "a": [
-    "junior developers",
-    "students",
-    "self-taught developers"
-   ],
-   "source": "dev.to",
-   "url": "https://dev.to/bankaitensei/i-built-an-editor-that-is-faster-than-zed-1hi1"
-  },
-  {
-   "p": "Notes that nags you politely",
-   "a": [
-    "students",
-    "freelancers",
-    "teachers"
-   ],
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50634543"
-  },
-  {
-   "p": "Learned made social",
-   "a": [
-    "immigrants",
-    "travelers",
-    "students"
-   ],
-   "source": "dev.to",
-   "url": "https://dev.to/pointinvaders/what-i-learned-shipping-a-31-game-arcade-in-the-browser-with-no-engine-2en6"
-  },
-  {
-   "p": "RAG tricks for everyday jobs",
-   "a": [
-    "students",
-    "freelancers",
-    "office workers"
-   ],
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50635912"
-  },
-  {
-   "p": "Plain-English LLM for non-experts",
+   "p": "A daily tip for using prompting",
    "a": [
     "small shops",
     "teachers",
-    "students"
+    "freelancers"
    ],
    "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50635477"
+   "url": "https://news.ycombinator.com/item?id=50646482"
+  },
+  {
+   "p": "A daily tip for using AI",
+   "a": [
+    "students",
+    "teachers",
+    "office workers"
+   ],
+   "source": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50635055"
+  },
+  {
+   "p": "A one-screen app for reminders",
+   "a": [
+    "students",
+    "teachers",
+    "freelancers"
+   ],
+   "source": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50651099"
+  },
+  {
+   "p": "A plain-English guide to AI",
+   "a": [
+    "small shops",
+    "office workers",
+    "students"
+   ],
+   "source": "dev.to",
+   "url": "https://dev.to/tinniaru3005/i-put-an-ai-agent-in-your-browser-so-you-can-watch-it-get-hijackedpublished-true-144o"
+  },
+  {
+   "p": "Everyday jobs made easier with AI tools",
+   "a": [
+    "teachers",
+    "freelancers",
+    "small shops"
+   ],
+   "source": "dev.to",
+   "url": "https://dev.to/vtima/my-coding-agent-says-done-heres-how-i-make-it-prove-it-b38"
   }
  ]
 }
