@@ -1,245 +1,230 @@
 {
- "updated": "2026-11-27T14:49:32.729Z",
+ "updated": "2026-11-28T13:58:10.709Z",
  "items": [
-  {
-   "p": "Simple coordination for community meetups",
-   "a": [
-    "sports clubs",
-    "roommates",
-    "church groups"
-   ],
-   "t": [
-    "Works from a QR code",
-    "Shareable result card",
-    "Zero sign-up"
-   ],
-   "source": "GitHub",
-   "url": "https://github.com/4lwayz/portwatch-vi"
-  },
   {
    "p": "Share your games in one tap",
    "a": [
     "friends",
-    "artists",
-    "teenagers"
+    "teenagers",
+    "artists"
    ],
    "t": [
-    "Includes a mascot",
-    "Works offline",
-    "Uses a single button"
+    "Shareable result card",
+    "Uses a single button",
+    "Has a countdown timer"
    ],
    "source": "GitHub",
    "url": "https://github.com/fxceless/victory-fork"
   },
   {
-   "p": "A calmer way to manage reminders",
+   "p": "A daily tip for using AI tools",
    "a": [
-    "freelancers",
-    "new parents",
-    "teachers"
+    "office workers",
+    "students",
+    "small shops"
    ],
    "t": [
-    "One screen only",
-    "Works offline",
-    "Syncs with a calendar"
+    "Shareable result card",
+    "Uses a single button",
+    "Reads out loud"
    ],
    "source": "GitHub",
-   "url": "https://github.com/omonkeyz/xbox-emulator"
+   "url": "https://github.com/DeadInternetStudios/100x-engineer-skill"
   },
   {
    "p": "A weekly games challenge",
    "a": [
-    "artists",
     "friends",
-    "teenagers"
+    "students",
+    "hobbyists"
    ],
    "t": [
     "Has a countdown timer",
     "Uses a single button",
-    "Shareable result card"
+    "Works offline"
    ],
    "source": "GitHub",
    "url": "https://github.com/Indigo-0167/universal-game-mod-manager"
   },
   {
-   "p": "A weekly music challenge",
+   "p": "A cheat-sheet app for Git",
    "a": [
-    "hobbyists",
-    "friends",
-    "students"
+    "junior developers",
+    "students",
+    "bootcamp grads"
    ],
    "t": [
+    "Gamified with badges",
     "Works offline",
-    "Uses a single button",
+    "One screen only"
+   ],
+   "source": "GitHub",
+   "url": "https://github.com/flint63-code/gitdesk-windows"
+  },
+  {
+   "p": "A weekly photos challenge",
+   "a": [
+    "artists",
+    "students",
+    "hobbyists"
+   ],
+   "t": [
+    "Has a countdown timer",
+    "Works offline",
     "Includes a mascot"
    ],
    "source": "GitHub",
-   "url": "https://github.com/kai415-debug/ffmpeg-video-audio-converter"
+   "url": "https://github.com/umbradev315/ffmpeg-video-audio-converter"
   },
   {
-   "p": "A polite nag for focus time",
+   "p": "A cheat-sheet app for SQL",
    "a": [
-    "teachers",
-    "freelancers",
-    "new parents"
+    "bootcamp grads",
+    "junior developers",
+    "career switchers"
    ],
    "t": [
-    "Uses a single button",
-    "One screen only",
-    "Sends one daily nudge"
+    "Has a leaderboard",
+    "Gamified with badges",
+    "Works offline"
    ],
    "source": "GitHub",
-   "url": "https://github.com/sybil-solutions/skill-distill"
+   "url": "https://github.com/quartzdev666/windows-pdf-editor"
   },
   {
-   "p": "Everyday jobs made easier with AI tools",
+   "p": "A daily tip for using prompting",
    "a": [
     "office workers",
-    "teachers",
-    "small shops"
-   ],
-   "t": [
-    "Shareable result card",
-    "Reads out loud",
-    "Zero sign-up"
-   ],
-   "source": "GitHub",
-   "url": "https://github.com/xikhar/papercraft"
-  },
-  {
-   "p": "A daily tip for using AI",
-   "a": [
-    "freelancers",
     "small shops",
-    "students"
+    "freelancers"
    ],
    "t": [
-    "Reads out loud",
-    "Zero sign-up",
-    "Uses a single button"
+    "Powered by a chatbot",
+    "Shareable result card",
+    "Reads out loud"
    ],
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50611593"
   },
   {
-   "p": "A calmer way to manage your schedule",
+   "p": "A polite nag for reminders",
    "a": [
-    "new parents",
+    "students",
     "remote workers",
-    "students"
+    "freelancers"
    ],
    "t": [
     "One screen only",
-    "Uses a single button",
-    "Syncs with a calendar"
+    "Sends one daily nudge",
+    "Uses a single button"
    ],
    "source": "Hacker News",
    "url": "https://news.ycombinator.com/item?id=50651099"
   },
   {
-   "p": "Everyday jobs made easier with AI",
+   "p": "A plain-English guide to the terminal",
    "a": [
-    "teachers",
-    "office workers",
-    "freelancers"
+    "students",
+    "bootcamp grads",
+    "self-taught developers"
+   ],
+   "t": [
+    "Has a leaderboard",
+    "Built around a streak",
+    "One screen only"
+   ],
+   "source": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50677091"
+  },
+  {
+   "p": "A daily tip for using AI",
+   "a": [
+    "small shops",
+    "freelancers",
+    "office workers"
    ],
    "t": [
     "Uses a single button",
+    "Reads out loud",
+    "Shareable result card"
+   ],
+   "source": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=50675831"
+  },
+  {
+   "p": "Everyday jobs made easier with AI",
+   "a": [
+    "office workers",
+    "freelancers",
+    "students"
+   ],
+   "t": [
+    "Shareable result card",
     "Powered by a chatbot",
     "Reads out loud"
    ],
    "source": "dev.to",
-   "url": "https://dev.to/julies1/i-built-a-devto-comment-reviser-so-id-stop-re-pasting-the-same-ai-prompt-4oi8"
+   "url": "https://dev.to/earlgreyhot1701d/two-sisters-tinctures-now-in-motion-an-ai-ad-made-with-migoo-3lo7"
   },
   {
-   "p": "A plain-English guide to Git",
+   "p": "Learn Git in 10 minutes a day",
    "a": [
-    "students",
     "career switchers",
-    "junior developers"
+    "self-taught developers",
+    "bootcamp grads"
    ],
    "t": [
     "Works offline",
     "Gamified with badges",
-    "Built around a streak"
+    "Has a leaderboard"
    ],
    "source": "dev.to",
    "url": "https://dev.to/devel0mer/git-bisect-doesnt-work-on-lockfiles-so-i-built-whichdep-4d37"
   },
   {
-   "p": "A one-screen app for reminders",
+   "p": "A one-screen app for focus time",
    "a": [
-    "new parents",
-    "remote workers",
-    "freelancers"
+    "teachers",
+    "students",
+    "new parents"
    ],
    "t": [
-    "Syncs with a calendar",
-    "Sends one daily nudge",
-    "One screen only"
+    "Uses a single button",
+    "One screen only",
+    "Works offline"
    ],
    "source": "dev.to",
    "url": "https://dev.to/vero-code/61-hackathons-2000-github-contributions-the-free-chrome-planner-that-keeps-me-shipping-2gk7"
   },
   {
-   "p": "A polite nag for reminders",
-   "a": [
-    "remote workers",
-    "students",
-    "new parents"
-   ],
-   "t": [
-    "Sends one daily nudge",
-    "One screen only",
-    "Syncs with a calendar"
-   ],
-   "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50659618"
-  },
-  {
-   "p": "A daily tip for using prompting",
-   "a": [
-    "teachers",
-    "office workers",
-    "students"
-   ],
-   "t": [
-    "Reads out loud",
-    "Powered by a chatbot",
-    "Shareable result card"
-   ],
-   "source": "dev.to",
-   "url": "https://dev.to/vtima/my-coding-agent-says-done-heres-how-i-make-it-prove-it-b38"
-  },
-  {
-   "p": "A quick idea generator for games",
-   "a": [
-    "teenagers",
-    "hobbyists",
-    "artists"
-   ],
-   "t": [
-    "Works offline",
-    "Has a countdown timer",
-    "Shareable result card"
-   ],
-   "source": "dev.to",
-   "url": "https://dev.to/pointinvaders/what-i-learned-shipping-a-31-game-arcade-in-the-browser-with-no-engine-2en6"
-  },
-  {
    "p": "Everyday jobs made easier with prompting",
    "a": [
-    "teachers",
-    "students",
-    "office workers"
+    "freelancers",
+    "office workers",
+    "teachers"
    ],
    "t": [
-    "Zero sign-up",
+    "Uses a single button",
     "Shareable result card",
-    "Uses a single button"
+    "Reads out loud"
    ],
    "source": "Hacker News",
-   "url": "https://news.ycombinator.com/item?id=50665796"
+   "url": "https://news.ycombinator.com/item?id=50674887"
+  },
+  {
+   "p": "A plain-English guide to AI",
+   "a": [
+    "students",
+    "small shops",
+    "freelancers"
+   ],
+   "t": [
+    "Powered by a chatbot",
+    "Reads out loud",
+    "Zero sign-up"
+   ],
+   "source": "dev.to",
+   "url": "https://dev.to/tinniaru3005/i-put-an-ai-agent-in-your-browser-so-you-can-watch-it-get-hijackedpublished-true-144o"
   }
  ]
 }
